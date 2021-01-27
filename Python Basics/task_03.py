@@ -17,32 +17,32 @@
 # Результат:
 # Ваш знак зодиака: Скорпион
 
-day = input('Введите день:\n')
+day = int(input('Введите день:\n'))
 month = input('Введите месяц:\n')
 
-if (month == 'Март' and day >= '21') or (month == 'Апрель' and day <= '19'):
+if (month == 'Март' and day >= 21) or (month == 'Апрель' and day <= 19):
     print('Ваш знак зодиака: Овен')
-elif (month == 'Апрель' and day >= '20') or (month == 'Май' and day <= '20'):
+elif (month == 'Апрель' and day >= 20) or (month == 'Май' and day <= 20):
     print('Ваш знак зодиака: Телец')
-elif (month == 'Май' and day >= '21') or (month == 'Июнь' and day <= '20'):
+elif (month == 'Май' and day >= 21) or (month == 'Июнь' and day <= 20):
     print('Ваш знак зодиака: Близнецы')
-elif (month == 'Июнь' and day >= '21') or (month == 'Июль' and day <= '22'):
+elif (month == 'Июнь' and day >= 21) or (month == 'Июль' and day <= 22):
     print('Ваш знак зодиака: Рак')
-elif (month == 'Июль' and day >= '23') or (month == 'Август' and day <= '22'):
+elif (month == 'Июль' and day >= 23) or (month == 'Август' and day <= 22):
     print('Ваш знак зодиака: Лев')
-elif (month == 'Август' and day >= '23') or (month == 'Сентябрь' and day <= '22'):
+elif (month == 'Август' and day >= 23) or (month == 'Сентябрь' and day <= 22):
     print('Ваш знак зодиака: Дева')
-elif (month == 'Сентябрь' and day >= '23') or (month == 'Октябрь' and day <= '22'):
+elif (month == 'Сентябрь' and day >= 23) or (month == 'Октябрь' and day <= 22):
     print('Ваш знак зодиака: Весы')
-elif (month == 'Октябрь' and day >= '23') or (month == 'Ноябрь' and day <= '21'):
+elif (month == 'Октябрь' and day >= 23) or (month == 'Ноябрь' and day <= 21):
     print('Ваш знак зодиака: Скорпион')
-elif (month == 'Ноябрь' and day >= '22') or (month == 'Декабрь' and day <= '21'):
+elif (month == 'Ноябрь' and day >= 22) or (month == 'Декабрь' and day <= 21):
     print('Ваш знак зодиака: Стрелец')
-elif (month == 'Декабрь' and day >= '22') or (month == 'Январь' and day <= '19'):
+elif (month == 'Декабрь' and day >= 22) or (month == 'Январь' and day <= 19):
     print('Ваш знак зодиака: Козерог')
-elif (month == 'Январь' and day >= '20') or (month == 'Февраль' and day <= '18'):
+elif (month == 'Январь' and day >= 20) or (month == 'Февраль' and day <= 18):
     print('Ваш знак зодиака: Водолей')
-elif (month == 'Февраль' and day >= '19') or (month == 'Март' and day <= '20'):
+elif (month == 'Февраль' and day >= 19) or (month == 'Март' and day <= 20):
     print('Ваш знак зодиака: Рыбы')
 else:
     print('Некорректное данные')
